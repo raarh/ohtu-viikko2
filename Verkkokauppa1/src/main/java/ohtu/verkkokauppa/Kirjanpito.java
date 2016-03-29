@@ -2,7 +2,8 @@
 package ohtu.verkkokauppa;
 
 import java.util.*;
-
+import org.springframework.stereotype.Component;
+@Component
 public class Kirjanpito implements IKirjanpito {
     private List<String> tapahtumat;
 
